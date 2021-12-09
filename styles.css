@@ -4,13 +4,14 @@
     display: grid;
     grid-gap: 15px;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 190px 100px auto 50px;
+    grid-template-rows: 50px auto 50px 50px 50px 50px 50px;
     grid-template-areas:
             "header"
              "main"
              "aside1"
             "aside2"
             "aside3"
+            "."
             "footer";
 }
 
